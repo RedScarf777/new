@@ -1,0 +1,5 @@
+interface:
+  display_name: "繁转简与排版"
+  short_description: "繁体转简体，并优化中文与 Markdown 排版"
+  default_prompt: "把我提供的繁体中文转成简体，并整理标点、段落和 Markdown；不要改变原意。"
+
