@@ -1,0 +1,21 @@
+{
+  "name": "redscarf777-chinese-tools",
+  "interface": {
+    "displayName": "RedScarf777 中文工具"
+  },
+  "plugins": [
+    {
+      "name": "zh-hans-polisher",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
+
