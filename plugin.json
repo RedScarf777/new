@@ -1,0 +1,39 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "zh-hans-polisher",
+  "version": "0.1.0",
+  "description": "Convert Traditional Chinese to Simplified Chinese and polish Chinese typography without changing meaning.",
+  "author": {
+    "name": "RedScarf777",
+    "url": "https://github.com/RedScarf777"
+  },
+  "homepage": "https://github.com/RedScarf777/new",
+  "repository": "https://github.com/RedScarf777/new",
+  "license": "MIT",
+  "keywords": [
+    "chinese",
+    "traditional-chinese",
+    "simplified-chinese",
+    "typography",
+    "formatting"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "繁转简与排版",
+        "shortDescription": "繁体转简体，并整理中文标点、段落和 Markdown 排版",
+        "longDescription": "将繁体中文准确转换为简体中文，同时整理标点、空格、段落、标题、列表和 Markdown；保护代码、链接、路径与专有名词。",
+        "developerName": "RedScarf777",
+        "category": "Productivity",
+        "websiteURL": "https://github.com/RedScarf777/new",
+        "defaultPrompt": [
+          "把下面的繁体中文转成简体并整理排版。",
+          "保留 Markdown 结构，把这篇文章繁转简并润色排版。",
+          "只转换繁简和标点，不改写原意。"
+        ],
+        "brandColor": "#D94841"
+      }
+    }
+  }
+}
+
